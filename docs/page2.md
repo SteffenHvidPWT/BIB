@@ -1,5 +1,5 @@
 ---
-title: First Page
+title: Second Page
 layout: home
 ---
 # A small weather app
