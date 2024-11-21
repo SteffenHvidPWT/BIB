@@ -1,8 +1,12 @@
 ---
-title: Second Page
+title: Code Example
 layout: home
+parent: Application 1
 ---
-# A small weather app
+# Weather example
+
+{: .highlight }
+This is just to show a code block.
 
 ```python
 import requests

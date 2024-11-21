@@ -1,4 +1,4 @@
 ---
-title: Menu 1
+title: Components
 layout: home
 ---
