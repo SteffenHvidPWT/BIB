@@ -20,6 +20,8 @@ def get_weather(city):
         response.raise_for_status()
         data = response.json()
 
+        Console.log()
+
         if data.get("cod") != 200:
             print(f"Error: {data.get('message')}")
             return

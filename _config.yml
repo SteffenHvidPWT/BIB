@@ -6,3 +6,9 @@ url: https://github.com/SteffenHvidPWT/BIB/
 
 #aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+nav_external_links:
+  - title: Syntax for Just The Docs
+    url: https://just-the-docs.github.io/just-the-docs/
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
