@@ -29,17 +29,3 @@ jobs:
         with:
           name: jekyll_site
           path: jekyll_site.zip
-
-  push:
-    name: Push packages
-    runs-on: ubuntu-latest
-    needs: build
-  
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v3
-        with:
-          name: jekyll_site
-
-      - name: "Push all packages to: nuget.pkg.github.com"
-        run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source https://nuget.pkg.github.com/SteffenHvidPWT/index.json
